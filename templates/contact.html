@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Faculty Self-Appraisal System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/contact.css') }}">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="{{ url_for('home') }}" class="back-button">&lt;&lt;</a>
+        <h1>Contact Us</h1>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact-section">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>If you have any questions or need further information, please reach out to us through the following:</p>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <h3>Email:</h3>
+                    <p><a href="mailto:info@facultyappraisal.com">envisagers1613@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Phone:</h3>
+                    <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        &copy; 2024 DYPCET. All rights reserved.
+    </div>
+</body>
+</html>
